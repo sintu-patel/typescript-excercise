@@ -7,3 +7,6 @@ enum Directions {
 
 let directions = [Directions.Up, Directions.Down, Directions.Left, Directions.Right]
 console.log(directions[0]);
+
+// Reverse mapping
+console.log(Directions[0]);

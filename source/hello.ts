@@ -25,11 +25,3 @@ function overloadCode(x:(string | any[])):number {
 
 overloadCode('wwwdotcom');
 overloadCode([1,2,3,4,5])
-
-// Classes
-
-class ToDoApp {
-	constructor() {
-		
-	}
-}

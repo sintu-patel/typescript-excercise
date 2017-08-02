@@ -7,4 +7,5 @@ var Directions;
 })(Directions || (Directions = {}));
 let directions = [Directions.Up, Directions.Down, Directions.Left, Directions.Right];
 console.log(directions[0]);
+console.log(Directions[0]);
 //# sourceMappingURL=enums.js.map
