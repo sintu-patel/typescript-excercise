@@ -1,25 +1,10 @@
 // Typescript hello world
 function hello(value) {
+    var tupleArray;
+    tupleArray = ['Hello', 2, 3, 'www'];
     console.log('Helloworld ' + value * 2);
+    console.log(tupleArray);
     return value * 2;
 }
 hello(25);
-function overloadCode(x) {
-    var testLength;
-    if (x instanceof Array) {
-        testLength = x.length;
-    }
-    if (typeof (x) === 'string' || x instanceof String) {
-        testLength = x.length;
-    }
-    console.log('overloadCode ' + testLength);
-    return testLength;
-}
-overloadCode('wwwdotcom');
-overloadCode([1, 2, 3, 4, 5]);
-// Classes
-class ToDoApp {
-    constructor() {
-    }
-}
 //# sourceMappingURL=hello.js.map

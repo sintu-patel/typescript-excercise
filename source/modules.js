@@ -1,24 +1,26 @@
 var Company;
 (function (Company) {
-    class Employee {
-        constructor(firstName, lastName) {
+    var Employee = (function () {
+        function Employee(firstName, lastName) {
             this.firstName = firstName;
             this.lastName = lastName;
             console.log('employee');
         }
-        getEmployee() {
+        Employee.prototype.getEmployee = function () {
             return this.employee = this.firstName + ' ' + this.lastName;
-        }
-    }
-    class Employer {
-        constructor() {
+        };
+        return Employee;
+    }());
+    var Employer = (function () {
+        function Employer() {
             var employee = new Employee('Sintu', 'Singh');
             console.log(employee.getEmployee());
         }
-        getAll() {
+        Employer.prototype.getAll = function () {
             console.log('test');
-        }
-    }
+        };
+        return Employer;
+    }());
     Company.Employer = Employer;
 })(Company || (Company = {}));
 var obj = new Company.Employer();
