@@ -9,4 +9,5 @@ let directions = [Directions.Up, Directions.Down, Directions.Left, Directions.Ri
 console.log(directions[0]);
 
 // Reverse mapping
-console.log(Directions[0]);
+console.log(Directions[50]);
+// Print Down

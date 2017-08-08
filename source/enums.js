@@ -8,5 +8,5 @@ var Directions;
 var directions = [Directions.Up, Directions.Down, Directions.Left, Directions.Right];
 console.log(directions[0]);
 // Reverse mapping
-console.log(Directions[0]);
+console.log(Directions[50]);
 //# sourceMappingURL=enums.js.map
